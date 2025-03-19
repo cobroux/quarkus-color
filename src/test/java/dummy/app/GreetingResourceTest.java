@@ -15,7 +15,7 @@ public class GreetingResourceTest {
           .when().get("/colors")
           .then()
              .statusCode(200)
-             .body(is("hello colorful world"));
+             .body(is("hello red"));
     }
 
 }
